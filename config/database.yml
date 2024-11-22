@@ -82,7 +82,7 @@ test:
 #
 production:
   adapter: postgresql
-   url: postgres://koyeb-adm:*******@ep-spring-lake-a2ss68cs.eu-central-1.pg.koyeb.app/koyebdb
+  url: postgres://koyeb-adm:*******@ep-spring-lake-a2ss68cs.eu-central-1.pg.koyeb.app/koyebdb
   primary: &primary_production
     <<: *default
     database: myapp_production
